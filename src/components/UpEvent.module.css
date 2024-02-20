@@ -1,0 +1,19 @@
+.upEvent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 1rem 2rem;
+  border-left: 5px solid var(--color-brand--1);
+}
+
+.upEvent span:first-child {
+  font-size: 1.9rem;
+  line-height: 1;
+}
