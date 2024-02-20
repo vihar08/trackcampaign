@@ -1,0 +1,12 @@
+
+
+.logo img{
+  height: 5.2rem;
+}
+ 
+.logo h1{
+  display:inline-flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
