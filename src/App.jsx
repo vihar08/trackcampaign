@@ -3,7 +3,7 @@
 import {BrowserRouter , Routes, Route} from "react-router-dom";
 import Homepage from './pages/Homepage';
 import AppLayout from "./pages/AppLayout";
-import ScheduledEvents from "./components/ScheduledEvents";
+import ScheduleEvents from "./components/ScheduleEvents";
 //import { useState } from "react";
 import UpComingEvents from "./components/UpComingEvents";
 
@@ -33,8 +33,8 @@ function App() {
    <Routes>
     <Route path="/" element={<Homepage/>}/>
     <Route path="/applayout" element={<AppLayout/>}>
-      <Route index element={<ScheduledEvents/>}/>
-      <Route path="ScheduledEvents" element={<ScheduledEvents/>}/>
+      <Route index element={<ScheduleEvents/>}/>
+      <Route path="ScheduledEvents" element={<ScheduleEvents/>}/>
       <Route path="UpcomingEvents" element={<UpComingEvents/>}/>
     </Route>
    </Routes>

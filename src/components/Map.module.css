@@ -19,7 +19,7 @@
 
 :global(.leaflet-popup .leaflet-popup-content) {
   font-size: 1.5rem;
-  display: flex;
+  display: flex-column;
   align-items: center;
   gap: 1rem;
 }
